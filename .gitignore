@@ -1,0 +1,52 @@
+# Go build artifacts
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of `go build` or `go install`
+*.out
+
+# Go workspaces
+go.work
+go.work.sum
+
+# Dependency directories (generally don't commit vendored deps)
+/vendor/
+
+# Coverage files
+*.cover
+coverage.out
+
+# Logs
+*.log
+
+# IDEs and editors
+.idea/
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Local environment files
+.env
+.env.*
+
+# Build cache or local tooling
+/.cache/
+/tmp/
+/dist/
+/bin/
+/build/
